@@ -14,13 +14,16 @@ main{
 
 .card{
     width: 100%;
-    
+    margin-bottom: 10px;
     
 }
 
 .prodotto{
     display: inline-block;
     width: 33%;
+    margin-bottom: 50px;
+    padding: 10px;
+    position: relative;
 }
 
 .description{
@@ -29,7 +32,6 @@ main{
 }
 
 .main-container{
-    /* display: inline-block;     */
     width: 1200px;
 }
 
@@ -44,4 +46,39 @@ main{
 .prezzo{
     color: red;
     font-size: 0.8em;
+}
+
+.sconto{
+    background-color: red;
+    color: white;
+    height: 20px;
+    width: 40px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 100px;
+    left: 10
+    line-height: 0.5px;
+    padding-top: 2px;
+}
+
+.eco{
+    color: white;
+    background-color: green;
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+    height: 20px;
+    font-size: 10px;
+    padding: 5px;
+    line-height: 9px;
+}
+
+.heart{
+    background-color: white;
+    position: absolute;
+    /* width: 60px;
+    height: 60px; */
+    padding: 5px;
+    top: 50px;
+    right: 10px;
 }
