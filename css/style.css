@@ -10,25 +10,27 @@ main{
     text-align: center;
     margin: 0 auto;
     position: relative;
-    text-align: center;
 }
 
 .card{
-    height: 550px;
+    width: 100%;
     
     
 }
 
-
+.prodotto{
+    display: inline-block;
+    width: 33%;
+}
 
 .description{
-    /* text-align: left; */
+    text-align: left;
     
 }
 
-.container{
+.main-container{
     /* display: inline-block;     */
-    width: 400px;
+    width: 1200px;
 }
 
 .brand{
