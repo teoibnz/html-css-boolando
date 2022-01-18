@@ -2,32 +2,44 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: helvetica;
 }
 
-.container{
+main{
     width: 95%;
     text-align: center;
     margin: 0 auto;
     position: relative;
+    text-align: center;
 }
 
 .card{
-    margin: 10px;
     height: 550px;
-    display: inline-block;
+    
+    
 }
 
-.card-container{
-    display: inline;
-    position: relative;
-    width: 300px;
-}
+
 
 .description{
     /* text-align: left; */
-    width: 50px;
-    height: 30px;
-    background-color: red;
-    display: inline-block;
+    
+}
 
+.container{
+    /* display: inline-block;     */
+    width: 400px;
+}
+
+.brand{
+    font-size: 1em;
+}
+
+.modello{
+    font-weight: bold;
+}
+
+.prezzo{
+    color: red;
+    font-size: 0.8em;
 }
